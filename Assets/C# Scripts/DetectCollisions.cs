@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using Yarn.Unity;
 
 public class DetectCollisions : MonoBehaviour
 {
@@ -9,11 +10,15 @@ public class DetectCollisions : MonoBehaviour
     public GameObject text;
     public GameObject playerSprite;
     public GameObject NPCSprite;
+    private DialogueRunner dialogueRunner;
+
+
     void Start()
     {
-        text.gameObject.SetActive(false);
+        //text.gameObject.SetActive(false);
         playerSprite.gameObject.SetActive(false);
         NPCSprite.gameObject.SetActive(false);
+        dialogueRunner = FindObjectOfType<Yarn.Unity.DialogueRunner>();
     }
 
     // Update is called once per frame
@@ -24,8 +29,13 @@ public class DetectCollisions : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        text.gameObject.SetActive(true);
+        //text.gameObject.SetActive(true);
         playerSprite.gameObject.SetActive(true);
         NPCSprite.gameObject.SetActive(true);
+    }
+    
+    private void StartText()
+    {
+
     }
 }

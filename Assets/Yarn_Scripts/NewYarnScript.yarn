@@ -1,9 +1,25 @@
 ﻿title: Start
+position: -43,-14
 ---
-Text Starts #line:0e1e82c 
+<<set $like_you to true>>
 
--> option1 #line:0a939c5 
--> option2 #line:030611d 
+Cube: Hello, I'm Cube.
+Cylinder: Hi there Cube! I'm Cylinder.
+Cylinder: So how are you?
 
-last text #line:09c5a70 
+-> Im fine how are you
+    Cylinder: pretty good
+-> Im feeling great just had an amazing day!
+    Cylinder: Alright! That's what you like to hear!
+-> Not to good actully.
+    <<set $like_you to false>>
+
+<<if $like_you>>
+    Cube: Anyways so you later
+    Cylinder: Yeah!
+<<else>>
+    Cylinder: aw man lets talk about it.
+    Cube: Thanks man.
+    Cylinder: No problem
+<<endif>>
 ===
