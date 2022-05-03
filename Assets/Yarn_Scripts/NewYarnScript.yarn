@@ -42,6 +42,11 @@ Solver: Yeah! You usually come up with a name during your dream- OH RIGHT!
 Solver: You don't know anything sorry kid I'll explain to you what's going on.
 PK: My name is "PK", you just gave me a name and you're still calling me kid?
 Solver: Yup! Now kid...
+
+<<fadeOut>>
+<<camera Scene2>>
+<<fadeIn>>
+
 <<jump Explaining>>
 ===
 title: Explaining
@@ -82,7 +87,7 @@ position: 203,271
 Solver: Well at around your early 20's everyone has a special dream...
 Solver: It would have you coming to the paradox plane and you would have had all this explained to you by a voice in your head.
 PK: Okay... well what's next?
-Solver: That's it actully, the dream makes it so if you ever end paradoxing then you won't be as lost as you currently are kid.
+Solver: Well you'll get asked a question but what matters is that the dream makes it so if you ever end up paradoxing then you won't be as lost as you currently are kid.
 Solver: Don't worry whenever you have the dream you'll be fine as you're already getting this explained to you right now.
 Solver: Your memories in the paradox plane are separate from the real world but you do keep these memories while your in here.
 Pk: Thanks for at least telling me this now.
@@ -108,5 +113,29 @@ Solver: I know your confused kid and that you probably have a ton of question bu
 PK: What do you mean?
 Solver: Kid your a paradox and I'm a solver which means that we're gonna keep on talking until you've been solved.
 PK: I don't understand you haven't even explained what either of us are, like what's a paradox or a solver and what does being solved mean.
-
+Solver: First Paradoxes are created when your real world self is in a current state of being self contradicting.
+PK: Huh? What does self contradicting mean?
+Solver: Many things it's when your sadness, anger, grief, and confusion all culminate in you...
+Solver: not understanding yourself to the point where you can't recongize yourself and are left as something that represents the self contradicting turmoil you are feeling.
+Solver: A paradox...
+PK: ...
+PK: And that's me?
+Solver: Yeah... sorry kid.
+Solver: Many people go their entire lives without paradoxing and their dream is the only time they come to the paradox plane.
+Solver: Paradoxing before you even had your dream is tough kid, you must have had it rough.
+PK: I guess I did but I don't remember and im stuck with this feeling of loneliness and self envy.
+PK: what do I do it... hurts.
+Solver: Well kid that's where people like me come on the Solvers.
+PK: Solvers?
+Solver: Yep right before your dream ends you you get asked if you want to train to become a Solver.
+Solver: We train and practice to become individuals that can help talk to paradoxes until they eventually understand themselves thus being solved.
+Solver: We actually keep our memories from the real world but you aren't rewarded for being a solver.
+Solver: We do this out of the kidness of our hearts even though some paradoxes can be the worst.
+PK: Uhh...
+Solver: Not You Kid!
+Solver: I'm here to help it's what I do whenever I come to the paradox plane.
+PK: And you think you can help me.
+Solver: Yeah I promise on my honor as a solver that I'll make sure your solved
+PK: OK...
+<<fadeOut>>
 ===
