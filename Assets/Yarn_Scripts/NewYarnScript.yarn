@@ -1,25 +1,112 @@
 ﻿title: Start
 position: -43,-14
 ---
-<<set $like_you to true>>
+<<fadeIn>>
 
-Cube: Hello, I'm Cube.
-Cylinder: Hi there Cube! I'm Cylinder.
-Cylinder: So how are you?
+Solver: Alright! Another day another chance to solve some paradoxes.
+Solver: ...still wish Solvers got paid for this but whatev-huh? Ohhhhh well don't you look at that a paradox right at the start of the day.
+Solver: (Okay time for Mr. Nice Guy again)
 
--> Im fine how are you
-    Cylinder: pretty good
--> Im feeling great just had an amazing day!
-    Cylinder: Alright! That's what you like to hear!
--> Not to good actully.
-    <<set $like_you to false>>
+<<fadeOut>>
+<<camera Scene1>>
+<<fadeIn>>
 
-<<if $like_you>>
-    Cube: Anyways so you later
-    Cylinder: Yeah!
-<<else>>
-    Cylinder: aw man lets talk about it.
-    Cube: Thanks man.
-    Cylinder: No problem
-<<endif>>
+Solver: Hey! What's up loser?
+Paradox: ...?
+Solver: ...
+    -> Solver: Hey! I know your dumbass heard me
+        Paradox: I'm sorry but can you respectfully piss off!
+    -> Solver: What? To busy looking at your ugly self?
+        Paradox: I'm sorry but kindly piss off
+    -> Solver: Come on nerd are you gonna say something or what?
+        Paradox: Please just shut up..
+        Paradox: I'm just... so lost. Please go away
+Solver: (Oh! This paradox actually seems hurt!)
+Solver: (Damn it what's wrong with me. I'm not taking my job seriously)
+Solver: Hey sorry there buddy Solvers just deal with a lot different types of paradoxes ya feel me?
+Paradox: Huh?
+Solver: I mean It's just been awhile since I've had the pleasure to run into a paradox that reminded me why I signed up to be a solver.
+Paradox: Look I don't understand anything you just said
+Solver: Oh! So this your first time paradoxing?
+Solver: Have you never even come to the Paradox plan before?
+Paradox: No I have no idea what's going on. I don't know who you are, where I am, who I am or... or... or even how am I?
+Solver: Wow... your young aren't you... I'm so sorry, no kid deserves to paradox so young.
+Paradox: I'm... young?
+Solver: Yeah, this is your first time seeing the paradox plane that means you never had the dream.
+Paradox: What dream?! You aren't explaing anything! Please I... I just don't understand.
+Solver: Your right. Here kid you deserve a name.
+Solver: How about ummm?
+Solver: PK! Short for "Paradoxing Kid"!
+PK: That's my name? PK?
+Solver: Yeah! You usually come up with a name during your dream- OH RIGHT!
+Solver: You don't know anything sorry kid I'll explain to you what's going on.
+PK: My name is "PK", you just gave me a name and you're still calling me kid?
+Solver: Yup! Now kid...
+<<jump Explaining>>
+===
+title: Explaining
+position: -40,201
+---
+Solver: What do you wanna know?
+    -> PK: Just... who am I?
+        <<jump WhoAmI>>
+    -> PK: What's with that dream you talked about?
+        <<jump WhatDream>>
+    -> PK: What is this place.
+        <<jump ParadoxPlane>>
+    -> PK: Nothing else
+        <<jump Solving1>>
+===
+title: WhoAmI
+position: 193,127
+---
+Solver: Well Kid you're a Paradox but that's conversation for later.
+Solver: But when it comes to you in the real world nobody knows who you were. Here in the Paradox plane your memories from the real world don't transfer.
+Solver: Your gender, race, age and background from the real world are all unknown to everybody including yourself.
+Solver: You're just a thought, a bad thought but I'll explain that when I start solving you.
+PK: You didn't really awnser my question?
+Solver: Because I can't Kid. Again nobody knows the real you, not even you.
+PK: The "Real Me"? I don't get it.
+Solver: Look we'll talk about that when I start solving you so if it makes you feel better your confusion when it comes to yourself is normal.
+PK: I... I at least know that my name is PK
+Solver: ...
+Solver: (wow even just giving the kid a name made him closer to being solved)
+PK: umm?
+Solver:(Sorry PK I promise I'll solve you)
+Solver: Don't mind me kid, now...
+<<jump Explaining>>
+===
+title: WhatDream
+position: 203,271
+---
+Solver: Well at around your early 20's everyone has a special dream...
+Solver: It would have you coming to the paradox plane and you would have had all this explained to you by a voice in your head.
+PK: Okay... well what's next?
+Solver: That's it actully, the dream makes it so if you ever end paradoxing then you won't be as lost as you currently are kid.
+Solver: Don't worry whenever you have the dream you'll be fine as you're already getting this explained to you right now.
+Solver: Your memories in the paradox plane are separate from the real world but you do keep these memories while your in here.
+Pk: Thanks for at least telling me this now.
+Solver: No problem, anyways...
+<<jump Explaining>>
+===
+title: ParadoxPlane
+position: 194,196
+---
+Solver: The paradox plane is an ethereal plane above the real world where paradoxes roam.
+Solver: Actually not much is known about the logistics here as regardless of what language you spoke in the real world we all understand eachother.
+PK: Are you a Paradox?
+Solver: Nope, you are however but this is yet another thing to talk about later.
+Solver: What can be taken from the paradox plane is that this is a place for conversations.
+PK: conversations? You mean Like these?
+Solver: Kinda but we'll get to that, so...
+<<jump Explaining>>
+===
+title: Solving1
+position: -38,414
+---
+Solver: I know your confused kid and that you probably have a ton of question but no It's time for us to talk, one on one.
+PK: What do you mean?
+Solver: Kid your a paradox and I'm a solver which means that we're gonna keep on talking until you've been solved.
+PK: I don't understand you haven't even explained what either of us are, like what's a paradox or a solver and what does being solved mean.
+
 ===
