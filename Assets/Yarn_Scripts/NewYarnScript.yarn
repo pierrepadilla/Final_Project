@@ -2,6 +2,10 @@
 position: -43,-14
 ---
 <<fadeIn>>
+<<wait 3>>
+<<fadeOut>>
+<<camera SceneExtra>>
+<<fadeIn>>
 
 Solver: Alright! Another day another chance to solve some paradoxes.
 Solver: ...still wish Solvers got paid for this but whatev-huh? Ohhhhh well don't you look at that a paradox right at the start of the day.
